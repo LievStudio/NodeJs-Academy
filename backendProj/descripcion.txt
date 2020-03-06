@@ -1,0 +1,16 @@
+Modelos necesarios:
+    -Vehiculo:
+        +userId: string,
+        +username: String,
+        +location: point (modelo declarado por nosotros),
+        +previousLocations: location[]
+    
+    - Point:
+        +type: String,
+        +coordinates: String
+
+
+Rutas/Controller:
+
+    -Vehiculo:
+        +CRUD - Actualizar la posicion
